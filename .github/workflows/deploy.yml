@@ -7,9 +7,9 @@ on:
 
 env:
   PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
-  REGION: europe-west1
+  REGION: us-central1
   SERVICE_NAME: frontend-portfolio
-  REPO_NAME: cloud-run-source-deploy
+  REPO_NAME:  portfolio
 
 jobs:
   deploy:
